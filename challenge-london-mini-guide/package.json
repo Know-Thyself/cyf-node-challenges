@@ -4,7 +4,7 @@
   "description": "In this challenge you are going to build a full stack application (server & client) that shows the number of hospitals, doctors, pharmacies and colleges in some London's boroughs.",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "nodemon server/index.js",
     "build": "cd client && npm install && npm run build"
   },
   "engines": {
@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
   }
 }
